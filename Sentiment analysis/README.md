@@ -3,3 +3,5 @@
 
 Open the **ipynb** file where you will find the code. <br/>
 The **tsv** file contains the hotel review data.
+
+* I've not used word embeddings *
