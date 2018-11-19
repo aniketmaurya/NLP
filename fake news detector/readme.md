@@ -1,7 +1,9 @@
 # FAKE NEWS DETECTOR
 > In last few year there is surge of fake news on social media. We aim to solve this big social problem with state of the art techniques of Neural Networks. In this application, we intend to predict the truth/fakeness of a news.
 
-The dataset has been collected from Kaggle  (https://www.kaggle.com/c/fake-news).
+##### Open `fake_news_detector.ipynb` file to view the code in Python and the data is in `fake news1/train.csv` file.
+
+*The dataset has been collected from Kaggle (https://www.kaggle.com/c/fake-news) .*
 
 
 ##### The various packages used are:
