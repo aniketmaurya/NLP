@@ -54,4 +54,10 @@ Our model has layers as following:
 
 The **softmax** activation unit has been used for prediction with **Adam** as optimizer.
 
-Achieved 84% training and 90% test accuracy.
+Achieved 84% training and 90% test accuracy. </br>
+
+Now working on the Tensorflow lite to create the app to preditc the Hoax on mobile phones.
+
+
+
+
