@@ -1,6 +1,7 @@
 # FAKE NEWS DETECTOR
-In last few year there is surge of fake news on social media. We aim to solve this big social problem with state of the art techniques of Neural Networks. In this application, we intend to predict the truth/fakeness of a news.
-The dataset has been collected from [Kaggle](hhttps://www.kaggle.com/c/fake-news) .
+> In last few year there is surge of fake news on social media. We aim to solve this big social problem with state of the art techniques of Neural Networks. In this application, we intend to predict the truth/fakeness of a news.
+
+The dataset has been collected from Kaggle  (https://www.kaggle.com/c/fake-news).
 
 
 ##### The various packages used are:
