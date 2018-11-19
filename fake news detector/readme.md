@@ -1,8 +1,9 @@
-
 # FAKE NEWS DETECTOR
-In this application, we intend to predict the truth/fakeness of a news.
+In last few year there is surge of fake news on social media. We aim to solve this big social problem with state of the art techniques of Neural Networks. In this application, we intend to predict the truth/fakeness of a news.
+The dataset has been collected from [Kaggle](hhttps://www.kaggle.com/c/fake-news) .
 
-The various packages used are:
+
+##### The various packages used are:
 
 `numpy`: It is a general-purpose array-processing package which provides a high-performance multidimensional array object, and tools for working with these arrays.
 
@@ -13,7 +14,7 @@ The various packages used are:
 `keras`: Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano. We have used Tensorflow as backend. 
 It allows easy and fast prototyping, supports both convolutional networks and recurrent networks and runs seamlessly on CPU and GPU. For faster training we used Nvidia 940M GPU with 4 GB RAM. 
 
-The functions are mentioned below: </br>
+##### The functions are mentioned below:
 `read_csv()`: It is used to import data which is the very first step in the project. </br>
 `drop()`: It is used to delete the column *id* and inplace is used to avoid reassigning the value to df. </br>
 `head()`: It is used to view the first 5 data from the data set.
@@ -42,10 +43,7 @@ The activation function of the LSTM gates is often the logistic function. Intuit
 There are connections into and out of the LSTM gates, a few of which are recurrent. The weights of these connections, which need to be learned during training, determine how the gates operate.
 
 
-
-
-
-Our model has layers as following:
+###### Our model has layers as following:
 1. `Embedding` : Max feature 5000, embed dimension 128 and the input layer is set as the length of texts  to be fed.
 2. `Dropout` : 50%
 3. `LSTM layer` : Output shape 196
@@ -54,9 +52,9 @@ Our model has layers as following:
 
 The **softmax** activation unit has been used for prediction with **Adam** as optimizer.
 
-Achieved 84% training and 90% test accuracy. </br>
+*Achieved 84% training and 90% test accuracy.* </br>
 
-Now working on the Tensorflow lite to create the app to preditc the Hoax on mobile phones.
+*Now working on the Tensorflow lite to create the app to preditc the Hoax on mobile phones.*
 
 
 
