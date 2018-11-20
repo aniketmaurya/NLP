@@ -1,4 +1,4 @@
-# FAKE NEWS DETECTOR
+# FAKE NEWS DETECTOR (Documentation in progress)
 > In last few year there is surge of fake news on social media. We aim to solve this big social problem with state of the art techniques of Neural Networks. In this application, we intend to predict the truth/fakeness of a news.
 
 ##### Open `fake_news_detector.ipynb` file to view the code in Python and the data is in `fake news1/train.csv` file.
